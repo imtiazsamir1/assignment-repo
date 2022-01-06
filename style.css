@@ -6,6 +6,10 @@ h1 {
   font-size: 75px;
   font-weight: 700;
 }
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
 #mission {
   text-align: center;
   font-size: 60px;
@@ -13,10 +17,13 @@ h1 {
 .section {
   display: flex;
   margin-bottom: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 #section-mission {
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 40px;
 }
 .orange-color {
   color: rgba(255, 166, 0, 0.767);
@@ -28,7 +35,7 @@ h1 {
   border-image-slice: 1;
 }
 .half-width {
-  width: 50%;
+  width: 95%;
   margin-left: 180px;
   margin-top: 110px;
   font-size: 25px;
@@ -36,6 +43,7 @@ h1 {
 .half-width img {
   width: 60%;
   margin-top: 0%;
+  margin-bottom: 70px;
 }
 .battn {
   text-decoration: none;
