@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 700;
 }
 #mission {
   text-align: center;
@@ -16,9 +16,9 @@ h2 {
 }
 .section {
   display: flex;
-  margin-bottom: 70px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-bottom: 180px;
+  margin-left: 199px;
+  margin-right: 199px;
 }
 #section-mission {
   margin-left: 200px;
@@ -35,13 +35,17 @@ h2 {
   border-image-slice: 1;
 }
 .half-width {
-  width: 95%;
-  margin-left: 180px;
+  width: 90%;
+  margin-left: 0%;
+  margin-right: 0%;
   margin-top: 110px;
   font-size: 25px;
 }
+
 .half-width img {
   width: 60%;
+  margin-left: 60%;
+  margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 70px;
 }
@@ -71,4 +75,9 @@ h2 {
 }
 .flex {
   display: flex;
+}
+.futter {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
 }
