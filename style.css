@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin-left: 0%;
+}
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+}
+#mission {
+  text-align: center;
+  font-size: 60px;
+}
+.section {
+  display: flex;
+  margin-bottom: 70px;
+}
+#section-mission {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.orange-color {
+  color: rgba(255, 166, 0, 0.767);
+}
+
+.left-bordr-box {
+  border-left: 4px solid;
+  border-image: linear-gradient(orange, red);
+  border-image-slice: 1;
+}
+.half-width {
+  width: 50%;
+  margin-left: 180px;
+  margin-top: 110px;
+  font-size: 25px;
+}
+.half-width img {
+  width: 60%;
+  margin-top: 0%;
+}
+.battn {
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 700;
+  background-image: linear-gradient(orange, tomato);
+}
+.mission {
+  box-shadow: 0px 0px 5px gray;
+  width: 28%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 70px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.width-img {
+  width: 45%;
+}
+#my-mission {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
